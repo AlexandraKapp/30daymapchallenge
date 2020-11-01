@@ -53,7 +53,7 @@ The polygon of the streets are derived as a 'negative' from the official blocks 
 
 **Tools & Packages:**
 
-- [*sf*](https://r-spatial.github.io/sf/) and [*leaflet*](https://rstudio.github.io/leaflet/) R package
+- [*sf*](https://r-spatial.github.io/sf/) and [*mapdeck*](https://github.com/SymbolixAU/mapdeck) R package
 
 ## Day 2: Lines
 ## Day 3: Polygons
