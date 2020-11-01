@@ -40,8 +40,8 @@ cars <- cars %>%
 map <- mapdeck(
   style = mapdeck_style("dark"),
   location = c(13.43, 52.51, 14),
-  zoom = 13,
-  min_zoom = 13,
+  zoom = 12,
+  min_zoom = 11,
   max_zoom = 15,
   token = mapboxAccessToken
 ) %>%
@@ -57,7 +57,5 @@ map <- mapdeck(
   add_title(title = list(
     title = "<b>All 80.808 cars registered in XHain mapped onto the streets</b> <br> <span style='font-size:14px'>Data: <a href= https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=ISU5@senstadt&bbox=387452,5818178,395140,5822472'>Geopartal Berlin [Blockkarte 1:5000 (ISU5)]</a> & 
                                         <a href='https://s3.kleine-anfragen.de/ka-prod/be/18/20848.pdf'>kleine Anfragen</a> <br> <a href = '../index.html'>< Back to overview</a> </span>",
-    css = "font-size: 20px;"
+    css = "font-size: 18px;"
   ))
-
-mapshot(map, "html/day1.html")
