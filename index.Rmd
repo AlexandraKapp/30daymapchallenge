@@ -1,0 +1,86 @@
+---
+title: "#30dayMapChallenge 2020"
+author: "Alexandra Kapp"
+date: "November 1st 2020"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+</style>
+
+## #30dayMapChallenge 
+What is the [30dayMapChallenge](https://github.com/tjukanovt/30DayMapChallenge)?
+
+**My results `r emo::ji("tada")`**
+
+The idea is to make 30 maps from each day from 1st Nov to 30th Nov 2020. I hope to get about half done - so 15 maps.
+
+I want to use this challenge to play around with different R packages for geospatial data and try out different ways of interactive visualizations.
+
+## Day 1: Points
+
+**Amount of cars in XHain mapped as points onto streets**
+
+There are 80.808 cars registered in Berlin (2017). 
+
+If all cars would start driving at the same time - it'd get pretty crowded `r emo::ji("car")``r emo::ji("car")` `r emo::ji("car")`
+
+<a href= html/day1.html>![](img/day1.png)</a>
+
+[Click here for full map](html/day1.html)
+
+The polygon of the streets are derived as a 'negative' from the official blocks provided by the Geoportal Berlin. Points to represent cars are sampled randomly within the polygon.
+
+[R source code](R/day1.R)
+
+**Data:**
+
+- [Amount of cars via kleine Anfragen](https://s3.kleine-anfragen.de/ka-prod/be/18/20848.pdf)
+- [Polygon of streets derived from Geoportal Berlin 'Blockkarte 1:5000 (ISU5)'](https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=ISU5@senstadt&bbox=387452,5818178,395140,5822472)
+
+**Tools & Packages:**
+
+- [*sf*](https://r-spatial.github.io/sf/) and [*leaflet*](https://rstudio.github.io/leaflet/) R package
+
+## Day 2: Lines
+## Day 3: Polygons
+## Day 4: Hexagons
+## Day 5: Blue
+## Day 6: Red
+## Day 7: Green
+## Day 8: Yellow
+## Day 9: Monochrome
+## Day 10: Grid
+## Day 11: 3D
+## Day 12: Map not made with GIS software
+## Day 13: Raster
+## Day 14: Climate change
+## Day 15: Connections
+## Day 16: Island(s)
+## Day 17: Historical map
+## Day 18: Landuse
+## Day 19: NULL
+## Day 20: Population
+## Day 21: Water
+## Day 22: Movement
+## Day 23: Boundaries
+## Day 24: Elevation
+## Day 25: COVID-19
+## Day 26: Map with a new tool
+## Day 27: Big or small data
+## Day 28: Non-geographic map
+## Day 29: Globe
+## Day 30: A map
