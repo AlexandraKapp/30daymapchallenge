@@ -56,6 +56,29 @@ The polygon of the streets are derived as a 'negative' from the official blocks 
 - [*sf*](https://r-spatial.github.io/sf/) and [*mapdeck*](https://github.com/SymbolixAU/mapdeck) R package
 
 ## Day 2: Lines
+
+**All domestic German flights 2019**
+
+About [10% of all flights](https://www.dfs.de/dfs_homepage/en/Press/Publications/Mobility_Report_2017.pdf) from German airports are domestic flights - so starting in Germany and landing in Germany.
+
+The amount of flights between German airports are mapped here:
+
+<a href= html/day2.html>![](img/day2.gif)</a>
+
+[Click here for full map](html/day2.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day2.R)
+
+**Data:**
+
+- [Eurostat, the Statistical Office of the European Union, Air passenger transport between the main airports of Germany](https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=avia_par_de&lang=en)
+
+**Tools & Packages:**
+
+- geocode airports: [*tmaptools R package*](https://github.com/mtennekes/tmaptools)
+- viz: [*flowmap.blue R package*](https://github.com/FlowmapBlue/flowmapblue.R)
+
+
 ## Day 3: Polygons
 ## Day 4: Hexagons
 ## Day 5: Blue
