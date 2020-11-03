@@ -92,7 +92,7 @@ Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or h
 
 [Click here for full map](html/day3.html)
 
-[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day2.R)
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day3.R)
 
 
 **Tools & Packages:**
