@@ -31,6 +31,6 @@ intersection_with_berlin <- st_intersection(vor, berlin$geometry) %>% dplyr::sel
 m <- mapview(intersection_with_berlin, legend = F, layer.name = "area", popup = F ) + 
   mapview(st_as_sf(gyms_geo, coords = c("lon", "lat"), crs = 4326), legend = F, layer.name = "Boulder gyms", popup = F)
 
-mapshot(m, "day3.html")
+mapshot(m, "html/day3.html")
 
   
