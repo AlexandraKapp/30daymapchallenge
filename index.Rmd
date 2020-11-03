@@ -80,6 +80,26 @@ The amount of flights between German airports are mapped here:
 
 
 ## Day 3: Polygons
+
+**The catchment area of boulder gyms in Berlin**
+
+Playing around with Voroni maps: 
+"Voronoi polygons are created so that every location within a polygon is closer to the sample point in that polygon than any other sample point."
+
+Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
+
+<a href= html/day3.html>![](img/day3.png)</a>
+
+[Click here for full map](html/day3.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day2.R)
+
+
+**Tools & Packages:**
+
+- geocode boulder gyms: [*tmaptools R package*](https://github.com/mtennekes/tmaptools)
+- viz: [*mapview R package*](https://github.com/r-spatial/mapview)
+
 ## Day 4: Hexagons
 ## Day 5: Blue
 ## Day 6: Red
