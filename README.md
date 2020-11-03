@@ -19,9 +19,9 @@ There are 80.808 cars registered in Berlin (2017).
 
 If all cars would start driving at the same time - it'd get pretty crowded
 
-<a href= html/day1.html>![](img/day1.png)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day1.html>![](img/day1.png)</a>
 
-[Click here for full map](html/day1.html)
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day1.html)
 
 The polygon of the streets are derived as a 'negative' from the official blocks provided by the Geoportal Berlin. Points to represent cars are sampled randomly within the polygon.
 
@@ -44,9 +44,9 @@ About [10% of all flights](https://www.dfs.de/dfs_homepage/en/Press/Publications
 
 The amount of flights between German airports are mapped here:
 
-<a href= html/day2.html>![](img/day2.gif)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day2.html>![](img/day2.gif)</a>
 
-[Click here for full map](html/day2.html)
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day2.html)
 
 [R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day2.R)
 
@@ -69,11 +69,11 @@ Playing around with Voroni maps:
 
 Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or her closest gym (by beeline), this would be the catchment areas of each boulder gym.
 
-<a href= html/day3.html>![](img/day3.png)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day3.html>![](img/day3.png)</a>
 
-[Click here for full map](html/day3.html)
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day3.html)
 
-[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day2.R)
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day3.R)
 
 
 **Tools & Packages:**
