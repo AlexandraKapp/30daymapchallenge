@@ -15,7 +15,7 @@ I want to use this challenge to play around with different R packages for geospa
 
 **Amount of cars in XHain mapped as points onto streets**
 
-There are 80.808 cars registered in Berlin (2017). 
+There are 80.808 cars registered in Friedrichshain-Kreuzberg (2017). 
 
 If all cars would start driving at the same time - it'd get pretty crowded
 
