@@ -82,6 +82,28 @@ Here: All boulder gyms (that I know of) in Berlin. If everyone would go his or h
 - viz: [*mapview*](https://github.com/r-spatial/mapview)
 
 ## Day 4: Hexagons
+
+**Traffic accidents in Stuttgart**
+
+The 'Statistikportal' offers a great data set on (almost) all accidents in Germany as single points. The `mapdeck` package auto aggregates point data into hexagons - so no need for data pre-processing.
+
+I chose to crop the data to the outline of Stuttgart - but any other region or city can easily be used with the code by setting a different outline.
+
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day4.html>![](img/day4.gif)</a>
+
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day4.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day4.R)
+
+**Data:**
+
+- [Unfallatlas | Statistische Ämter des Bundes und der Länder](https://unfallatlas.statistikportal.de/_opendata2020.html)
+
+**Tools & Packages:**
+
+- get outline of Stuttgart: [*osmdata*](https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html)
+- viz: [*mapview R package*](https://github.com/r-spatial/mapview)
+
 ## Day 5: Blue
 ## Day 6: Red
 ## Day 7: Green
