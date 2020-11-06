@@ -136,7 +136,7 @@ The English term "redpoint" is a loan translation of the German Rotpunkt coined 
 This map shows all notable ascents according to [Wikipedia](https://en.wikipedia.org/wiki/Redpoint_(climbing)).
 
 
-<a href= html/day4.html>![](img/day6.png)</a>
+<a href= html/day6.html>![](img/day6.png)</a>
 
 [Click here for full map](html/day6.html)
 
