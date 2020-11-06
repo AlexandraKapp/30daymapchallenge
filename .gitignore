@@ -1,4 +1,5 @@
-/data
+/data/*
+!/data/rotpunkt.csv
 
 # History files
 .Rhistory
