@@ -133,7 +133,7 @@ Today is another one on climbing - it's less about the mapping tools.
 In sport climbing, redpointing is free-climbing a route, while lead climbing, after having practiced the route beforehand.
 The English term "redpoint" is a loan translation of the German Rotpunkt coined by Kurt Albert in the mid-1970s at Frankenjura. He would paint a red X on a fixed pin so that he could avoid using it for a foot- or handhold. Once he was able to free-climb the entire route, he would put a red dot at the base of the route. In many ways, this was the origin of the free climbing movement that led to the development of sport climbing ten years later. [Wikipedia](https://en.wikipedia.org/wiki/Redpoint_(climbing))
 
-This map shows all notable ascents according to [Wikipedia](https://en.wikipedia.org/wiki/Redpoint_(climbing).
+This map shows all notable ascents according to [Wikipedia](https://en.wikipedia.org/wiki/Redpoint_(climbing)).
 
 
 <a href= html/day4.html>![](img/day6.png)</a>
