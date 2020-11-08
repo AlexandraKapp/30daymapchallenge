@@ -15,4 +15,5 @@ Rotpunkt <- read_csv("data/rotpunkt.csv") %>%
     climber = paste(climber, collapse = ",<br>")) %>% 
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
 
-mapview(Rotpunkt, color = "transparent", col.regions = "red")
+mapview(Rotpunkt, color = "red", alpha = 0.8, alpha.regions = 0.8, 
+        col.regions = "red", lwd = 5)
