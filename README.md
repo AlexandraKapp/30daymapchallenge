@@ -134,6 +134,27 @@ Self compiled [data set](https://github.com/AlexandraKapp/30daymapchallenge/blob
 
 ## Day 7: Green
 ## Day 8: Yellow
+
+**Hours of sunshine in Germany 2019**
+
+Where in Germany was a lot of sunshine in 2019 - where was it rather grey?
+
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day8.html>![](img/day8.PNG)</a>
+
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day8.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day8.R)
+
+**Data:**
+
+- [DWD Climate Data Center (CDC), Jahressumme der Raster der monatlichen Sonnenscheindauer für Deutschland, Version v1.1.](https://opendata.dwd.de/climate_environment/CDC/grids_germany/annual/sunshine_duration/)
+
+**Tools & Packages:**
+
+- reading ESRI ascii grid file format: [*sp R package*](https://github.com/edzer/sp)
+- viz of raster data: [*leaflet R package*](https://rstudio.github.io/leaflet/)
+- hover information for raster data: [*leafem R package*](https://github.com/r-spatial/leafem)
+
 ## Day 9: Monochrome
 ## Day 10: Grid
 ## Day 11: 3D
