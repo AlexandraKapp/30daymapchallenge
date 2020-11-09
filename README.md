@@ -156,6 +156,30 @@ Where in Germany was a lot of sunshine in 2019 - where was it rather grey?
 - hover information for raster data: [*leafem R package*](https://github.com/r-spatial/leafem)
 
 ## Day 9: Monochrome
+
+
+**The life lines of Berlin**
+
+A fast way to find major streets within a city, without searching for any data on traffic amounts, street types or street width:
+
+Take random start and end points within the city and run a routing to find routes connecting the start and end points. 
+
+Then aggregate the single street segments on how often they were used.
+You then get an image of the major city axes.
+
+Big thanks to the *stplanr* package, which makes this easily done within a few lines of code!
+
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day9.html>![](img/day9.png)</a>
+
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day9.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day9.R)
+
+**Tools & Packages:**
+
+- routing and aggregating line segments: [*stplanr R package*](https://github.com/ropensci/stplanr)
+- viz: [*leaflet R package*](https://rstudio.github.io/leaflet/)
+
 ## Day 10: Grid
 ## Day 11: 3D
 ## Day 12: Map not made with GIS software
