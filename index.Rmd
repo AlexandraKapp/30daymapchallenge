@@ -200,6 +200,25 @@ Big thanks to the *stplanr* package, which makes this easily done within a few l
 - viz: [*leaflet R package*](https://rstudio.github.io/leaflet/)
 
 ## Day 10: Grid
+
+**Which cuisine can you eat where in Berlin?**
+
+
+<a href= https://lxndrkp.shinyapps.io/day10/>![](img/day10_italian.png)</a>
+
+[Click here for full map](https://lxndrkp.shinyapps.io/day10/)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day10.R)
+
+**Tools & Packages:**
+
+- Data on restaurants: [*osmdata R package*](https://github.com/ropensci/osmdata)
+- Viz: [*mapdeck R package*](https://github.com/SymbolixAU/mapdeck)
+
+**Data:**
+
+OpenStreetMap via osmdata package
+
 ## Day 11: 3D
 ## Day 12: Map not made with GIS software
 ## Day 13: Raster
