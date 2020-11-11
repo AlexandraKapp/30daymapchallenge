@@ -202,6 +202,29 @@ Big thanks to the *stplanr* package, which makes this easily done within a few l
 OpenStreetMap via osmdata package
 
 ## Day 11: 3D
+
+
+**Mapping the alpes in 3D**
+
+Playing around with the *mapdeck::add_terrain()* function. Not perfect yet, but works for a first try.
+
+<a href= html/day11.html>![](img/day11.gif)</a>
+
+[Click here for full map](html/day11.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day11.R)
+
+**Data:**
+
+Elevation data with [Mapbox](https://www.mapbox.com/) Tiles:
+
+- [elevation]("https://api.mapbox.com/v4/mapbox.terrain-rgb/5/16/11@2x.pngraw?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw")
+- [texture]("https://api.mapbox.com/v4/mapbox.satellite/5/16/11@2x.jpg90?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw")
+
+**Tools & Packages:**
+
+- Viz: [*mapdeck R package*](https://github.com/SymbolixAU/mapdeck)
+
 ## Day 12: Map not made with GIS software
 ## Day 13: Raster
 ## Day 14: Climate change
