@@ -235,8 +235,8 @@ Playing around with the *mapdeck::add_terrain()* function. Not perfect yet, but 
 
 Elevation data with [Mapbox](https://www.mapbox.com/) Tiles:
 
-- [elevation]("https://api.mapbox.com/v4/mapbox.terrain-rgb/5/16/11@2x.pngraw?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw")
-- [texture]("https://api.mapbox.com/v4/mapbox.satellite/5/16/11@2x.jpg90?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw")
+- [elevation](https://api.mapbox.com/v4/mapbox.terrain-rgb/5/16/11@2x.pngraw?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw)
+- [texture](https://api.mapbox.com/v4/mapbox.satellite/5/16/11@2x.jpg90?access_token=pk.eyJ1IjoibHhuZHJrcHAiLCJhIjoiY2p1NWl6OGZsMTU3dDQ0bnI1YnV6YjBkNiJ9.ySV4AyiDcNZmzd9ASRyvRw)
 
 **Tools & Packages:**
 
