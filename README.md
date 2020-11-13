@@ -226,7 +226,39 @@ Elevation data with [Mapbox](https://www.mapbox.com/) Tiles:
 - Viz: [*mapdeck R package*](https://github.com/SymbolixAU/mapdeck)
 
 ## Day 12: Map not made with GIS software
+
 ## Day 13: Raster
+
+**Noise in Berlin**
+
+OpenGIS Web Services (OWS) define geospatial standards to provide geo data, like WFS (Web Feature Service) for vector data and WMS (Web Map Service) for raster data. 
+Yet, these standards are not widely known with developers or data analysts who are used to working with ESRI-shape files, geojsons, etc.
+
+Some spatial data infrastructure providers, as the Geodatenportal Berlin (FIS-Broker) only offer these services and no further file download.
+
+There are some resources on how to use those services in R, e.g. [here some general info](https://geocompr.robinlovelace.net/read-write.html#geographic-web-services) and [here more specific for the Berlin FIS-Broker](https://github.com/patperu/fisbroker_data).
+
+Though, all example code was on retrieving vector data of WFS services. For todays challenge "raster" I wanted to try out, how easy it is to get raster data (WMS) straight into R.
+
+It's not entirely straight forward, as you need to find some parameters (e.g. "layers") through the *getCapabilities* query first. Then you retrieve a PNG where you need to set a proper georeference again, with a bounding box and CRS. 
+Therefore, I still find the easiest way for a one time download to use QGIS ([I wrote a blog post on how to do that at the Technologiestiftung Berlin](https://lab.technologiestiftung-berlin.de/projects/fisbroker-to-qgis/de/)), as QGIS does all this setting the correct parameters already for you.
+
+
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day13.html>![](img/day13.PNG)</a>
+
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day13.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day13.R)
+
+**Data:**
+
+[Geodatenportal Berlin: Strat. Lärmkarte Gesamtlärmindex L_DEN (Tag-Abend-Nacht) Raster 2017 (Umweltatlas)](https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=wmsk_07_05_14verkehr_gesDEN2016@senstadt&bbox=13,52,13,52')
+
+**Tools & Packages:**
+
+- construct URL *httr R package*
+- plot RGB raster layer  [*leafem R package*](https://github.com/r-spatial/leafem)
+
 ## Day 14: Climate change
 ## Day 15: Connections
 ## Day 16: Island(s)
