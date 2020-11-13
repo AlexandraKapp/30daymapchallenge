@@ -244,7 +244,7 @@ It's not entirely straight forward, as you need to find some parameters (e.g. "l
 Therefore, I still find the easiest way for a one time download to use QGIS ([I wrote a blog post on how to do that at the Technologiestiftung Berlin](https://lab.technologiestiftung-berlin.de/projects/fisbroker-to-qgis/de/)), as QGIS does all this setting the correct parameters already for you.
 
 
-<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day13.html>![](img/day13.PNG)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day13.html>![](img/day13.png)</a>
 
 [Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day13.html)
 
