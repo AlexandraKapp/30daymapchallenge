@@ -268,7 +268,7 @@ This map shows a polygon as large as the destroyed area that can be moved to any
 
 <a href= https://alexandrakapp.github.io/30daymapchallenge/html/day14.html>![](img/day14.gif)</a>
 
-[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day13.html>![](img/day13.png)
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day14.html)
 
 [R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day14.R)
 
