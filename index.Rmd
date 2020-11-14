@@ -276,6 +276,26 @@ Therefore, I still find the easiest way for a one time download to use QGIS ([I 
 - plot RGB raster layer  [*leafem R package*](https://github.com/r-spatial/leafem)
 
 ## Day 14: Climate change
+
+**Area of destroyed rain forest in 2019**
+
+In 2019 121.500 square km of rain forest had been destroyed. But how much is that?
+This map shows a polygon as large as the destroyed area that can be moved to any spot on the map to compare it to. 
+<a href= html/day14.html>![](img/day14.gif)</a>
+
+[Click here for full map](html/day14.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day14.R)
+
+**Data:**
+
+- [Amount of destroyed rainforest](https://www.faszination-regenwald.de/info-center/zerstoerung/flaechenverluste/)
+
+**Tools & Packages:**
+
+- viz of raster data: [*leaflet R package*](https://rstudio.github.io/leaflet/)
+- map editing and drawing for leaflet: [*leafpm R package*](https://github.com/r-spatial/leafpm)
+
 ## Day 15: Connections
 ## Day 16: Island(s)
 ## Day 17: Historical map
