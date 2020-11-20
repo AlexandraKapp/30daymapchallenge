@@ -287,6 +287,32 @@ This map shows a polygon as large as the destroyed area that can be moved to any
 ## Day 18: Landuse
 ## Day 19: NULL
 ## Day 20: Population
+
+
+**Movement within Berlin ("Binnenwanderung")**
+
+Many people are moving to Berlin from other places - especially the center - "im Ring" - is popular for people comiing to the city. 
+But once in Berlin - how to people move between the different districts ("Binnenwanderung")? More people move from the center districts to the outskirts. 
+
+Click on a district to see where the people are coming from that move to this district.
+
+Data from 2013.
+
+<a href= https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day20.R>![](img/day20.png)</a>
+
+[Click here for full map](https://lxndrkp.shinyapps.io/day20/)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day20.R)
+
+**Data:**
+
+- [Amt für Statistik Berlin-Brandenburg: Binnenwanderungen sind die Zu- und Fortzüge innerhalb der Regionaleinheiten einer Region (2013)](https://www.statistik-berlin-brandenburg.de/webapi/opendatabase?id=WBBEb13)
+
+**Tools & Packages:**
+
+- viz of raster data: [*leaflet R package*](https://rstudio.github.io/leaflet/)
+- map editing and drawing for leaflet: [*leafpm R package*](https://github.com/r-spatial/leafpm)
+
 ## Day 21: Water
 ## Day 22: Movement
 ## Day 23: Boundaries
