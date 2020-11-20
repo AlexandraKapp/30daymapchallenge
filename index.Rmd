@@ -312,7 +312,7 @@ Click on a district to see where the people are coming from that move to this di
 
 Data from 2013.
 
-<a href= https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day20.R>![](img/day20.png)</a>
+<a href= https://lxndrkp.shinyapps.io/day20/>![](img/day20.png)</a>
 
 [Click here for full map](https://lxndrkp.shinyapps.io/day20/)
 
