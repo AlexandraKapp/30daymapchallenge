@@ -139,7 +139,7 @@ Self compiled [data set](https://github.com/AlexandraKapp/30daymapchallenge/blob
 
 Where in Germany was a lot of sunshine in 2019 - where was it rather grey?
 
-<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day8.html>![](img/day8.PNG)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day8.html>![](img/day8.png)</a>
 
 [Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day8.html)
 
@@ -310,8 +310,7 @@ Data from 2013.
 
 **Tools & Packages:**
 
-- viz of raster data: [*leaflet R package*](https://rstudio.github.io/leaflet/)
-- map editing and drawing for leaflet: [*leafpm R package*](https://github.com/r-spatial/leafpm)
+- viz and clicking interaction: [*leaflet R package*](https://rstudio.github.io/leaflet/) & [*shiny R package*](https://shiny.rstudio.com/)
 
 ## Day 21: Water
 ## Day 22: Movement
