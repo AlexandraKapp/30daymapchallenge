@@ -346,6 +346,7 @@ All U-Bahn trains moving through the city on a regular Monday using the *{mapdec
 **Tools & Packages:**
 
 - Viz: [*mapdeck R package*](https://github.com/SymbolixAU/mapdeck)
+- read GTFS data:  [*tidytransit R package*](https://github.com/r-transit/tidytransit)
 
 ## Day 23: Boundaries
 ## Day 24: Elevation
