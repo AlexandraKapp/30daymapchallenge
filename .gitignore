@@ -4,6 +4,8 @@
 
 /R/shinyappsio/*
 
+/R/rsconnect/*
+
 # History files
 .Rhistory
 .Rapp.history

@@ -306,11 +306,11 @@ This map shows a polygon as large as the destroyed area that can be moved to any
 **Movement within Berlin ("Binnenwanderung")**
 
 Many people are moving to Berlin from other places - especially the center - "im Ring" - is popular for people comiing to the city. 
-But once in Berlin - how to people move between the different districts ("Binnenwanderung")? More people move from the center districts to the outskirts. 
+But once in Berlin - how do people move between the different districts ("Binnenwanderung")? More people move from the center districts to the outskirts (Data from 2013). 
 
 Click on a district to see where the people are coming from that move to this district.
 
-Data from 2013.
+Click events on leaflet maps are possible with shiny observe events.
 
 <a href= https://lxndrkp.shinyapps.io/day20/>![](img/day20.png)</a>
 
@@ -328,6 +328,25 @@ Data from 2013.
 
 ## Day 21: Water
 ## Day 22: Movement
+
+**U-Bahn trains moving through Berlin**
+
+All U-Bahn trains moving through the city on a regular Monday using the *{mapdeck::add_trips()}* function.
+
+<a href= html/day22.html>![](img/day22.gif)</a>
+
+[Click here for full map](html/day22.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day22.R)
+
+**Data:**
+
+- [VBB GTFS Feed](https://www.vbb.de/unsere-themen/vbbdigital/api-entwicklerinfos/datensaetze)
+
+**Tools & Packages:**
+
+- Viz: [*mapdeck R package*](https://github.com/SymbolixAU/mapdeck)
+
 ## Day 23: Boundaries
 ## Day 24: Elevation
 ## Day 25: COVID-19
