@@ -32,6 +32,6 @@ addPmToolbar(
                                     editMode = FALSE,
                                     cutPolygon = FALSE,
                                     removalMode = FALSE),
-  mapview(rainforest_area, color = "transparent", col.regions = "red", alpha.regions = 0.4)@map,
+  mapview(rainforest_area, color = "transparent", col.regions = "red", alpha.regions = 0.4, popup = F)@map,
   targetGroup = "rainforest_area"
 )

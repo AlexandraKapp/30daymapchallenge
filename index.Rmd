@@ -352,6 +352,24 @@ All U-Bahn trains moving through the city on a regular Monday using the *{mapdec
 ## Day 24: Elevation
 ## Day 25: COVID-19
 ## Day 26: Map with a new tool
+
+**Flight departures by Airport in Germany**
+
+Today is not made with R, but with [Datawrapper](https://www.datawrapper.de/)
+
+<a href= https://datawrapper.dwcdn.net/y6N58/1/>![](img/day26.png)</a>
+
+[Click here for full map](https://datawrapper.dwcdn.net/y6N58/1/)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day26.R)
+
+**Data:**
+
+- [Eurostat, the Statistical Office of the European Union, Air passenger transport between the main airports of Germany](https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=avia_par_de&lang=en)
+
+**Tools & Packages:**
+[Datawrapper](https://www.datawrapper.de/)
+
 ## Day 27: Big or small data
 ## Day 28: Non-geographic map
 ## Day 29: Globe
