@@ -369,9 +369,9 @@ Today is not made with R, but with [Datawrapper](https://www.datawrapper.de/)
 Ever wanted pink rivers or lilac streets on your basemap?
 That can easily be done with [Mapbox Studio](https://studio.mapbox.com/).
 
-<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day22.html>![](img/day30.png)</a>
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day30.html>![](img/day30.png)</a>
 
-[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day22.html)
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day30.html)
 
 [R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day30.R)
 
