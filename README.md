@@ -355,9 +355,26 @@ Today is not made with R, but with [Datawrapper](https://www.datawrapper.de/)
 - [Eurostat, the Statistical Office of the European Union, Air passenger transport between the main airports of Germany](https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=avia_par_de&lang=en)
 
 **Tools & Packages:**
+
 [Datawrapper](https://www.datawrapper.de/)
 
 ## Day 27: Big or small data
 ## Day 28: Non-geographic map
 ## Day 29: Globe
 ## Day 30: A map
+
+
+**Create your own basemap with Mapbox Studio**
+
+Ever wanted pink rivers or lilac streets on your basemap?
+That can easily be done with [Mapbox Studio](https://studio.mapbox.com/).
+
+<a href= https://alexandrakapp.github.io/30daymapchallenge/html/day22.html>![](img/day30.png)</a>
+
+[Click here for full map](https://alexandrakapp.github.io/30daymapchallenge/html/day22.html)
+
+[R source code](https://github.com/AlexandraKapp/30daymapchallenge/blob/main/R/day30.R)
+
+**Tools & Packages:**
+
+[Mapbox Studio](https://studio.mapbox.com/)
